@@ -1,0 +1,106 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo {
+  border-radius: 10px 10px 0px 0px;
+  background: url("../../assets/photo.png"),
+    lightgray -207.665px -133.577px / 210.625% 315.631% no-repeat;
+}
+
+.name {
+  width: 178.065px;
+  height: 25.806px;
+  padding-top: 21px;
+
+  /* color: #fff; */
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.status {
+  width: 178.065px;
+  height: 14.194px;
+  padding-top: 6.19px;
+
+  color: #f3bf99;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-weight: 400;
+}
+
+.website {
+  width: 228px;
+  height: 16px;
+  padding-top: 8.81px;
+
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+}
+
+.btn-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px 35px 0px;
+}
+
+.links-button {
+  height: 34px;
+  width: 115px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+}
+
+#email-button {
+  background-color: white;
+  border: 1px solid #d1d5db;
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button-icon {
+  height: 16px;
+  width: 16px;
+}
+.button-text {
+  padding-left: 8px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+
+#email-button > .button-text {
+  color: var(--gray-700, #374151);
+}
+
+#linkedin-button > .button-text {
+  color: white;
+}
+
+#linkedin-button {
+  background: #5093e2;
+  border: none;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
