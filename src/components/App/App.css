@@ -1,8 +1,9 @@
 .app-wrapper {
   width: 317px;
-  height: 780px;
+  /* height: 780px; */
   margin: auto;
 
   background: #1a1b21;
   border-radius: 10px;
+  
 }

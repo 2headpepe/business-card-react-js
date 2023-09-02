@@ -1,0 +1,18 @@
+.Footer-wrapper {
+  margin-top: 24px;
+  height: 64px;
+  width: 317px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 73px;
+}
+
+.Footer-icon {
+  max-width: 25px;
+}
