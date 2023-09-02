@@ -15,12 +15,13 @@
   height: 25.806px;
   padding-top: 21px;
 
-  /* color: #fff; */
+  color: #fff;
   text-align: center;
   font-family: Inter;
   font-size: 25px;
+  font-style: normal;
   font-weight: 700;
-  color: white;
+  line-height: normal;
 }
 
 .status {
