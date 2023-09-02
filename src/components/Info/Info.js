@@ -1,6 +1,6 @@
 import Photo from "../../assets/photo.png";
-import Mail from "../../assets/Mail.png";
-import Linkedin from "../../assets/linkedin.png";
+import Mail from "../../assets/mail.svg";
+import Linkedin from "../../assets/linkedin.svg";
 
 import "../Info/Info.css";
 
