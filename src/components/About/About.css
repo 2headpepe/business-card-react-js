@@ -1,0 +1,21 @@
+.About-wrapper {
+  padding: 33px 36px 0px;
+}
+
+.About-header {
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+.About-text {
+  color: #dcdcdc;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+}
